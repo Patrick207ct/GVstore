@@ -16,9 +16,6 @@ const shopReviewRouter = require("./routes/shop/review-routes");
 const commonFeatureRouter = require("./routes/common/feature-routes");
 const footerRouter = require("./routes/shop/footer-router");
 
-//create a database connection -> u can also
-//create a separate file for this and then import/use that file here
-
 mongoose
   .connect("mongodb+srv://baosh12345:baosh03122002@gvwebdb.bcthoas.mongodb.net/")
   .then(() => console.log("MongoDB connected"))
