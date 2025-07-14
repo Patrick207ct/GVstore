@@ -26,8 +26,8 @@ const createOrder = async (req, res) => {
         payment_method: "paypal",
       },
       redirect_urls: {
-        return_url: "https://gvstore.onrender.com",
-        cancel_url: "https://gvstore.onrender.com",
+        return_url: "http://localhost:5173",
+        cancel_url: "http://localhost:5173",
       },
       transactions: [
         {
